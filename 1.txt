@@ -1,0 +1,58 @@
+Folder PATH listing for volume �칫
+Volume serial number is 7DB0-DC56
+E:.
+��   .gitignore
+��   1.txt
+��   index.html
+��   package-lock.json
+��   package.json
+��   README.md
+��   vite.config.js
+��   
+��������.vscode
+��       extensions.json
+��       
+
+��������src
+    ��   App.vue
+    ��   main.js
+    ��   
+    ��������assets
+    ��   ��������fonts
+    ��   ��       Roobert-Regular.ttf
+    ��   ��       
+    ��   ��������images
+    ��   ��   ��������navbar
+    ��   ��           three-dots.png
+    ��   ��           twitch-favicon.png
+    ��   ��           
+    ��   ��������styles
+    ��       ��������customBootstrap
+    ��       ��       customNavbar.scss
+    ��       ��       
+    ��       ��������mystyles
+    ��               color.scss
+    ��               common.scss
+    ��               font.scss
+    ��               integration.scss
+    ��               
+    ��������components
+    ��   ��������card
+    ��   ��������carousel
+    ��   ��������main
+    ��   ��������navbar
+    ��   ��       Navbar.vue
+    ��   ��       
+    ��   ��������searchbar
+    ��   ��������sidebar
+    ��   ��������sidebaritem
+    ��   ��������tag
+    ��������pages
+    ��   ��������following
+    ��   ��������index
+    ��           Index.vue
+    ��           
+    ��������router
+    ��������stores
+            windowWidth.js
+            

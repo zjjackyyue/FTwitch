@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Roobert";
+  src: url("@/assets/fonts/Roobert-Regular.ttf");
+}
+
+$font-family-roobert: roobert, Inter, "Helverica Neue", Helvetica, Arial,
+  sans-serif;
+$font-family-inter: Inter, Roobert, "Helverica Neue", Helvetica, Arial,
+  sans-serif;
+
+.font-i6-14 {
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  font-family: $font-family-inter !important;
+}
+.font-i6-13 {
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  font-family: $font-family-inter !important;
+}
+.font-i6-12 {
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  font-family: $font-family-inter !important;
+}
+.font-i4-14 {
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  font-family: $font-family-inter !important;
+}
+.font-i4-13 {
+  font-size: 0.8125rem !important;
+  font-weight: 400 !important;
+  font-family: $font-family-inter !important;
+}
+.font-r6-18 {
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+  font-family: $font-family-roobert !important;
+}
+.font-r6-14 {
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  font-family: $font-family-roobert !important;
+}

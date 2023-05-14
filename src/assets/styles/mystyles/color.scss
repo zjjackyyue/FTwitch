@@ -1,0 +1,40 @@
+$color-white: #ffffff; //标题字体颜色
+$color-grey1: #dddde2; //sidebar大字体颜色
+$color-grey2: #a6a6ab; //sidebar小字体颜色
+$color-grey3: #6d6d6f; //searchbar placeholder的颜色
+$color-grey4: #2b2b2b; //sidebarItem的背景颜色
+$color-dark1: #18181b; //导航栏颜色
+$color-dark2: #1f1f23; //sidebar面板颜色
+$color-purple: #ba8ff8; //被选中字体的颜色
+
+.color-white {
+  color: $color-white;
+}
+
+.color-grey1 {
+  color: $color-grey1;
+}
+
+.color-grey2 {
+  color: $color-grey2;
+}
+
+.color-grey3 {
+  color: $color-grey3;
+}
+
+.color-grey4 {
+  color: $color-grey4;
+}
+
+.color-dark1 {
+  color: $color-dark1;
+}
+
+.color-dark2 {
+  color: $color-dark2;
+}
+
+.color-purple {
+  color: $color-purple;
+}

@@ -1,0 +1,132 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// 5. Include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "/node_modules/bootstrap/scss/navbar";
+@import "../mystyles/color.scss";
+@import "../mystyles/font.scss";
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+// 导航栏
+.navbar {
+  // 设置导航栏高度
+  height: 3.5rem;
+  // 导航栏里面的字体
+  .navbar-brand {
+    //覆盖效果：改为鼠标移动到上面，字体颜色变成紫色
+    &:hover {
+      color: $color-purple;
+    }
+  }
+  // 水平固定Following和Browse
+  .nav-sec {
+    .navbar-nav {
+      flex-direction: row;
+      align-items: center;
+    }
+    i {
+      margin: 0 1rem;
+    }
+  }
+
+  // 导航栏里面的搜索框
+  .form-control {
+    // 改变圆角
+    border-radius: 0.375rem 0 0 0.375rem;
+    // 改变background-color的颜色为与navbar颜色一致
+    background-color: $color-dark1;
+    // 改变边框的颜色
+    border-color: $color-grey3;
+    // 改变边框在选择状态下的颜色
+    &:focus {
+      border-color: $color-purple;
+      border-width: 0.2rem;
+      padding: 0.375rem 0.63rem;
+    }
+    // 改变在focus状态下字体的颜色
+    &:focus {
+      color: $color-white;
+      @extend .font-i4-14;
+    }
+    // 改变placeholder的颜色
+    &::placeholder {
+      color: $color-grey3;
+    }
+  }
+  // 导航栏里面搜索框旁边的搜索按钮，
+  .btn {
+    // 改变圆角
+    border-radius: 0 0.375rem 0.375rem 0;
+    background-color: $color-grey3;
+    // 搜索框里面的放大镜
+    i {
+      // 下移
+      display: inline-block;
+      margin-top: 0.25rem;
+    }
+  }
+
+  .nav-right {
+    .right-search {
+      div {
+        width: 1.7rem;
+        height: 1.7rem;
+      }
+    }
+    .bell-chat-broadcast {
+      width: 5rem;
+      margin-right: 1rem;
+      div {
+        width: 1.7rem;
+        height: 1.7rem;
+        cursor: pointer;
+        &:hover {
+          background-color: $color-grey3;
+          border-radius: 0.375rem;
+        }
+      }
+    }
+    // 给get-bits按钮设置圆角
+    .get-bits {
+      display: inline-block;
+      height: 2rem;
+      margin-right: 1rem;
+      background-color: $color-grey3;
+      border-radius: 0.375rem;
+      cursor: pointer;
+      .my-flex {
+        width: 7.1875rem;
+        // get-bits按钮里面的图标
+        i {
+          width: 2rem;
+          height: 1.75rem;
+          margin: 0.25rem 0.5rem 0 0.5rem;
+        }
+        // get-bits按钮里面的字体
+        span {
+          height: 2rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+    .profilePic {
+      width: 2.5rem;
+      height: 2.5rem;
+      cursor: pointer;
+    }
+  }
+}

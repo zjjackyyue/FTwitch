@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.my-flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.my-flex-row {
+  flex-direction: row;
+}
+
+.my-flex-column {
+  flex-direction: column;
+}
+
+.my-justify-center {
+  justify-content: center;
+}
+
+.my-justify-end {
+  justify-content: flex-end;
+}
+
+.my-align-center {
+  align-items: center;
+}
+
+.my-flex-grow {
+  flex-grow: 1;
+}
+
+.my-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
